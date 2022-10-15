@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_mainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/sv_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_mainPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_mainTitle"
+                    style="@style/mainTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/mainTitle" />
+
+                <ImageView
+                    android:id="@+id/iv_mainLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:contentDescription="The Risk of Rain Two Logo"
+                    app:srcCompat="@mipmap/ror2_logo_foreground" />
+            </TableRow>
+
+            <TableLayout
+                android:id="@+id/tl_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tr_contentTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_contentTitle"
+                        style="@style/subtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bottom_border"
+                        android:text="@string/content" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="5dp">
+
+                    <Button
+                        android:id="@+id/btn_survivors"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/survivors" />
+
+                    <Button
+                        android:id="@+id/btn_items"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/items" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_monsters"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monsters" />
+
+                    <Button
+                        android:id="@+id/btn_challenges"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/challenges" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_interactables"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/interactables" />
+
+                    <Button
+                        android:id="@+id/btn_drones"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drones" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_content4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_shrines"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shrines" />
+
+                    <Button
+                        android:id="@+id/btn_artifacts"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/artifacts" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_content5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_newtAltars"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/newtAltars" />
+
+                    <Button
+                        android:id="@+id/btn_lore"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lore" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_miscellaneousTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_miscTitle"
+                        style="@style/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bottom_border"
+                        android:text="@string/miscellaneous" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_misc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="5dp">
+
+                    <Button
+                        android:id="@+id/btn_mechanics"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mechanics" />
+
+                    <Button
+                        android:id="@+id/btn_itemStacking"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/itemStacking" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_misc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_statusEffects"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/statusEffects" />
+
+                    <Button
+                        android:id="@+id/btn_damage"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/damage" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_misc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_prismaticTrial"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prismaticTrial" />
+
+                    <Button
+                        android:id="@+id/btn_modding"
+                        style="@style/nav_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/modding" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

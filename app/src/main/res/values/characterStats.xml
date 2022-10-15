@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="acridStats">
+        <item>Acrid</item>
+        <item>Acrid is a melee-range hybrid who uses powerful poisons to melt tanky enemies.</item>
+        <item>160 (+48)</item>
+        <item>15 (+3)</item>
+        <item>3.75/s (+0.5/s)</item>
+        <item>2.5/s (+0.5/s)</item>
+        <item>1.5/s (+0.5/s)</item>
+        <item>Melee / Ranged</item>
+        <item>20</item>
+        <item>7 m/s</item>
+        <item>300</item>
+    </string-array>
+
+    <string-array name="artificerStats">
+        <item>Artificer</item>
+        <item>The Artificer is a high burst damage survivor who excels in fighting large groups and bosses alike.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="banditStats">
+        <item>Bandit</item>
+        <item>The Bandit is a high-skill combo character that can dish out devastating backstabs while weaving in and out of stealth.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="captainStats">
+        <item>Captain</item>
+        <item>The Captain is a unique survivor that can control the battlefield with utility and damage - with help from the UES Safe Travels.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="commandoStats">
+        <item>Commando</item>
+        <item>The Commando is a jack-of-all-trades character that is reliable in all situations of the game.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="engineerStats">
+        <item>Engineer</item>
+        <item>The Engineer is a unique class that requires planning and positioning to be successful.</item>
+        <item>130 (+39)</item>
+        <item>14 (+2.8)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="hereticStats">
+        <item>Heretic</item>
+        <item>The Heretic is a powerful character who can only be accessed through extraordinary means.</item>
+        <item>440 (+132)</item>
+        <item>18 (+3.6)</item>
+        <item>-9/s (-1.2/s)</item>
+        <item>-6/s (-1.2/s)</item>
+        <item>-3.6/s (-1.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>8 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="huntressStats">
+        <item>Huntress</item>
+        <item>The Huntress is an extremely mobile but fragile survivor with a high damage output.</item>
+        <item>90 (+27)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="loaderStats">
+        <item>Loader</item>
+        <item>The Loader is a slow but powerful bruiser that can use her grappling hook to uniquely navigate the environment.</item>
+        <item>160 (+48)</item>
+        <item>12 (+2.4)</item>
+        <item>3.75/s (+0.5/s)</item>
+        <item>2.5/s (+0.5/s)</item>
+        <item>1.5/s (+0.5/s)</item>
+        <item>Melee</item>
+        <item>20</item>
+        <item>7 m/s</item>
+        <item>150</item>
+    </string-array>
+
+    <string-array name="multStats">
+        <item>MUL-T</item>
+        <item>MUL-T is an aggressive survivor who has the tools necessary for any job!</item>
+        <item>200 (+60)</item>
+        <item>11 (+2.2)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Melee / Ranged</item>
+        <item>12</item>
+        <item>7 m/s</item>
+        <item>200</item>
+    </string-array>
+
+    <string-array name="mercenaryStats">
+        <item>Mercenary</item>
+        <item>The Mercenary is a high skill melee survivor that uses his many dodges to weave in and out of combat.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Melee</item>
+        <item>20</item>
+        <item>7 m/s</item>
+        <item>150</item>
+    </string-array>
+
+    <string-array name="rexStats">
+        <item>REX</item>
+        <item>REX is a half robot / half plant that uses HP to cast devastating skills from a distance. The plant nor the robot could survive this planet alone - but thankfully they have each other.</item>
+        <item>130 (+39)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>20</item>
+        <item>7 m/s</item>
+        <item>150</item>
+    </string-array>
+
+    <string-array name="railgunnerStats">
+        <item>Railgunner</item>
+        <item></item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="voidFiendStats">
+        <item>Void Fiend</item>
+        <item>The Void Fiend is a corrupted survivor that fluctuates between a controlled and corrupted form, each with different strengths and weaknesses. Managing this curse has become its fate.</item>
+        <item>110 (+33)</item>
+        <item>12 (+2.4)</item>
+        <item>1.5/s (+0.2/s)</item>
+        <item>1/s (+0.2/s)</item>
+        <item>0.6/s (+0.2/s)</item>
+        <item>Ranged</item>
+        <item>0</item>
+        <item>7 m/s</item>
+        <item>N/A</item>
+    </string-array>
+</resources>

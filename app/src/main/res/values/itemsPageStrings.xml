@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="items_title">Items</string>
+    <string name="items_descr">Items are special collectibles that spawn while playing the game.\n\nPlayers can pick items up to gain a special effect based upon what type of item it is. Each item\'s icon also has a colored border to indicate its rarity:</string>
+    <string name="items_whites">(30) White (Common)</string>
+    <string name="items_greens">(31) Green (Uncommon)</string>
+    <string name="items_reds">(28) Red (Legendary)</string>
+    <string name="items_yellows">(16) Yellow (Boss / Planet)</string>
+    <string name="items_blues">(18) Blue (Lunar)</string>
+    <string name="items_purples">(14) Purple (Void)</string>
+    <string name="items_oranges">(38) Orange (Equipment)</string>
+</resources>

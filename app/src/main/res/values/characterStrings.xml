@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="characters">Characters</string>
+    <string name="acrid">Acrid</string>
+    <string name="artificer">Artificer</string>
+    <string name="bandit">Bandit</string>
+    <string name="captain">Captain</string>
+    <string name="commando">Commando</string>
+    <string name="engineer">Engineer</string>
+    <string name="heretic">Heretic</string>
+    <string name="huntress">Huntress</string>
+    <string name="loader">Loader</string>
+    <string name="mult">MUL-T</string>
+    <string name="mercenary">Mercenary</string>
+    <string name="rex">REX</string>
+    <string name="railgunner">Railgunner</string>
+    <string name="voidFiend">Void Fiend</string>
+</resources>

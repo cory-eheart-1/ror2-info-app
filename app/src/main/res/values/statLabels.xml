@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="health">Health</string>
+    <string name="dmg">Damage</string>
+    <string name="regen">Regen</string>
+    <string name="type">Class</string>
+    <string name="armor">Armor</string>
+    <string name="speed">Speed</string>
+    <string name="mass">Mass</string>
+</resources>

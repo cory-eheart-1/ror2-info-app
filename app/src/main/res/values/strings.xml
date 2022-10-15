@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RoR2 Companion</string>
+
+    <string name="mainTitle">Risk of Rain 2 \nCompanion App</string>
+
+    <!-- Strings for the main page layout/titles -->
+    <string name="content">Content</string>
+    <string name="survivors">Survivors</string>
+    <string name="items">Items</string>
+    <string name="monsters">Monsters</string>
+    <string name="challenges">Challenges</string>
+    <string name="interactables">Interactables</string>
+    <string name="drones">Drones</string>
+    <string name="shrines">Shrines</string>
+    <string name="artifacts">Artifacts</string>
+    <string name="newtAltars">Newt Altars</string>
+    <string name="lore">Lore</string>
+
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="itemStacking">Item Stacking</string>
+    <string name="statusEffects">Status Effects</string>
+    <string name="damage">Damage</string>
+    <string name="prismaticTrial">Prismatic Trial</string>
+    <string name="modding">Modding</string>
+</resources>

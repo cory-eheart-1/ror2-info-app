@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="survivorsMainText">Survivors are the various playable characters available in Risk of Rain 2, each with their own
+        unique abilities. Players start with only the Commando and Huntress available, and can unlock the rest by accomplishing various
+        Challenges. Survivors are known as such due to the result of a space-bound catastrophe, although in RoR2 the case is revealed
+        by the game\'s lore to be on a rescue mission aboard the UES Safe Travels, sent to look for the remains of RoR1\'s UES Contact
+        Light. In this case, it\'s likely the name \"Survivor\" is used simply because it was also used in RoR1, not because it has
+        significance to the plot of RoR2.\n\nThere are currently fourteen playable survivors (the Railgunner and Void Fiend being
+        available in the DLC Survivors of the Void).</string>
+    <string name="survivorsHelper">\nPlease tap any of the above Survivors to view their information.</string>
+</resources>

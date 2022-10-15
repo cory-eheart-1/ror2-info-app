@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skills">Skills</string>
+
+    <string-array name="skillsText">
+        <item>Misc / Passive</item>
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>Utility</item>
+        <item>Special</item>
+    </string-array>
+
+    <string name="abilityName">Name:</string>
+    <string name="abilityCooldown">Cooldown: </string>
+    <string name="abilityProc">Proc Coefficient: </string>
+    <string name="abilityDescr">Description: </string>
+
+    <string-array name="acridPassive">
+        <item>2</item>
+        <item>Poison</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Poisonous attacks apply a powerful damage-over-time.</item>
+        <item>Blight</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Attacks that apply Poison apply stacking Blight instead, dealing 60% damage per second.</item>
+    </string-array>
+
+    <string-array name="acridPrimary">
+        <item>1</item>
+        <item>Vicious Wounds</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Maul an enemy for 200% damage. Every 3rd hit is Regenerative and deals 400% damage.</item>
+    </string-array>
+
+    <string-array name="acridSecondary">
+        <item>2</item>
+        <item>Neurotoxin</item>
+        <item>2s</item>
+        <item>1.0</item>
+        <item>Poisonous. Spit toxic bile for 240% damage.</item>
+        <item>Ravenous Bite</item>
+        <item>2s</item>
+        <item>1.0</item>
+        <item>Poisonous. Slayer. Regenerative. Bite an enemy for 310% damage.</item>
+    </string-array>
+
+    <string-array name="acridUtility">
+        <item>2</item>
+        <item>Caustic Leap</item>
+        <item>6s</item>
+        <item>Leap: 1.0\nPool: 0.1</item>
+        <item>Poisonous. Stunning. Leap in the air, dealing 320% damage. Leave acid that deals 25% damage.</item>
+        <item>Frenzied Leap</item>
+        <item>10s</item>
+        <item>1.0</item>
+        <item>Stunning. Leap in the air, dealing 550% damage. Reduce the cooldown by 2s for every enemy hit.</item>
+    </string-array>
+
+    <string-array name="acridSpecial">
+        <item>1</item>
+        <item>Epidemic</item>
+        <item>10s</item>
+        <item>1.0</item>
+        <item>Poisonous. Release a deadly disease that deals 100% damage. This disease spreads to up to 20 targets.</item>
+    </string-array>
+
+    <string-array name="artificerPassive">
+        <item>1</item>
+        <item>ENV Suit</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Holding the Jump key causes the Artificer to hover in the air.</item>
+    </string-array>
+
+    <string-array name="artificerPrimary">
+        <item>2</item>
+        <item>Flame Bolt</item>
+        <item>1.3s</item>
+        <item>1.0</item>
+        <item>Fire a bolt for 220% damage that ignite enemies. Hold up to 4.</item>
+        <item>Plasma Bolt</item>
+        <item>1.3s</item>
+        <item>1.0</item>
+        <item>Fire a bolt for 220% damage that explodes in a small area. Hold up to 4.</item>
+    </string-array>
+
+    <string-array name="artificerSecondary">
+        <item>2</item>
+        <item>Charged Nano-Bomb</item>
+        <item>5s</item>
+        <item>Explosion: 1.0\nSparks: 0.3</item>
+        <item>Stunning. Charge up a exploding nano-bomb that deals 400%-2000% damage.</item>
+        <item>Cast Nano-Spear</item>
+        <item>5s</item>
+        <item>1.0</item>
+        <item>Freezing. Charge up a piercing nano-spear that deals 400%-1200% damage.</item>
+    </string-array>
+
+    <string-array name="artificerUtility">
+        <item>1</item>
+        <item>Snapfreeze</item>
+        <item>12s</item>
+        <item>1.0 x 12</item>
+        <item>Freezing. Create a barrier that hurts enemies for 100% damage.</item>
+    </string-array>
+
+    <string-array name="artificerSpecial">
+        <item>2</item>
+        <item>Flamethrower</item>
+        <item>5s</item>
+        <item>1.0 * 22+</item>
+        <item>Burn all enemies in front of you for 1700% damage.</item>
+        <item>Ion Surge</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Stunning. Burst into the sky, dealing 800% damage.</item>
+    </string-array>
+
+    <string-array name="banditPassive">
+        <item>1</item>
+        <item>Backstab</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>All attacks from behind are Critical Strikes.</item>
+    </string-array>
+
+    <string-array name="banditPrimary">
+        <item>2</item>
+        <item>Burst</item>
+        <item>0.3s/shot</item>
+        <item>0.5 * 5</item>
+        <item>Fire a shotgun burst for 5x100% damage. Can hold up to 4 shells.</item>
+        <item>Blast</item>
+        <item>0.3s/shot</item>
+        <item>1.0</item>
+        <item>Fire a rifle blast for 330% damage. Can hold up to 4 bullets.</item>
+    </string-array>
+
+    <string-array name="banditSecondary">
+        <item>2</item>
+        <item>Serrated Dagger</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Lunge and slash for 360% damage. Critical Strikes also cause hemorrhaging.</item>
+        <item>Serrated Shiv</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Throw a hidden blade for 240% damage. Critical Strikes also cause hemorrhaging.</item>
+    </string-array>
+
+    <string-array name="banditUtility">
+        <item>1</item>
+        <item>Smoke Bomb</item>
+        <item>6s</item>
+        <item>1.0</item>
+        <item>Stunning. Deal 200% damage, become invisible, then deal 200% damage again.</item>
+    </string-array>
+
+    <string-array name="banditSpecial">
+        <item>2</item>
+        <item>Lights Out</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Slayer. Fire a revolver shot for 600% damage. Kills reset all your cooldowns.</item>
+        <item>Desperado</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Slayer. Fire a revolver shot for 600% damage. Kills grant stacking tokens for 10% more Desperado damage.</item>
+    </string-array>
+
+    <string-array name="captainPassive">
+        <item>1</item>
+        <item>Defensive Microbots</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Passively gain Microbots that shoot down nearby enemy projectiles. Drones are also given Microbots.</item>
+    </string-array>
+
+    <string-array name="captainPrimary">
+        <item>1</item>
+        <item>Vulcan Shotgun</item>
+        <item>N/A</item>
+        <item>0.75 x 8</item>
+        <item>Fire a blast of pellets that deal 8x120% damage. Charging the attack narrows the spread.</item>
+    </string-array>
+
+    <string-array name="captainSecondary">
+        <item>1</item>
+        <item>Power Tazer</item>
+        <item>6s</item>
+        <item>1.0</item>
+        <item>Shocking. Fire a fast tazzer that deals 100% damage. Travels farther if bounced.</item>
+    </string-array>
+
+    <string-array name="captainUtility">
+        <item>2</item>
+        <item>Orbital Probe</item>
+        <item>11s</item>
+        <item>1.0 per probe</item>
+        <item>Stunning. Request up to 3 Orbital Probes from the UES Safe Travels. Each probe deals 1000% damage.</item>
+        <item>OGM-72 \'DIABLO\' Strike</item>
+        <item>40s</item>
+        <item>1.0</item>
+        <item>Stunning. Request a kinetic strike from the UES Safe Travels. After 20 seconds, it deals 40,000% damage to ALL characters.</item>
+    </string-array>
+
+    <string-array name="captainSpecial">
+        <item>5</item>
+        <item>Orbital Supply Beacon</item>
+        <item>N/A</item>
+        <item>0.0</item>
+        <item>Request a permanent Supply Beacon. Can only be requested twice per stage.</item>
+        <item>Beacon: Healing</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Heal all nearby allies for 10% of their maximum health every second.</item>
+        <item>Beacon: Shocking</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Periodically Shock all neaerby enemies, immobilizing them.</item>
+        <item>Beacon: Resupply</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Recharge Equipment on use.</item>
+        <item>Beacon: Hacking</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Hack all nearby purchasables to a cost of $0 over time.</item>
+    </string-array>
+
+    <string-array name="commandoPassive">
+        <item>0</item>
+    </string-array>
+
+    <string-array name="commandoPrimary">
+        <item>1</item>
+        <item>Double Tap</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Rapidly shoot an enemy for 100% damage.</item>
+    </string-array>
+
+    <string-array name="commandoSecondary">
+        <item>2</item>
+        <item>Phase Round</item>
+        <item>3s</item>
+        <item>1.0</item>
+        <item>Fire a piercing bullet for 300% damage. Deals 40% more damage every time it passes through an enemy.</item>
+        <item>Phase Blast</item>
+        <item>3s</item>
+        <item>0.5 x 8</item>
+        <item>Fire two close-range blasts that deal 8x200% damage total.</item>
+    </string-array>
+
+    <string-array name="commandoUtility">
+        <item>2</item>
+        <item>Tactical Dive</item>
+        <item>4s</item>
+        <item>N/A</item>
+        <item>Roll a short distance.</item>
+        <item>Tactical Slide</item>
+        <item>4s</item>
+        <item>N/A</item>
+        <item>Slide on the ground for a short distance. You can fire while sliding.</item>
+    </string-array>
+
+    <string-array name="commandoSpecial">
+        <item>2</item>
+        <item>Suppressive Fire</item>
+        <item>9s</item>
+        <item>1.0 x 6+</item>
+        <item>Stunning. Fire repeatedly for 100% damage per bullet. The number of shots increases with attack speed.</item>
+        <item>Frag Grenade</item>
+        <item>5s</item>
+        <item>1.0</item>
+        <item>Throw a grenade that explodes for 700% damage. Can hold up to 2.</item>
+    </string-array>
+
+    <string-array name="engineerPassive">
+        <item>0</item>
+    </string-array>
+
+    <string-array name="engineerPrimary">
+        <item>1</item>
+        <item>Bouncing Grenades</item>
+        <item>N/A</item>
+        <item>1.0 per grenade, up to 1.0 x 8</item>
+        <item>Charge up to 8 grenades that deal 100% damage each.</item>
+    </string-array>
+
+    <string-array name="engineerSecondary">
+        <item>2</item>
+        <item>Pressure Mines</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Place a two-stage mine that deals 300% damage, or 900% damage if fully armed. Can place up to you.</item>
+        <item>Spider Mines</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Place a robot mine that deals 600% damage when an enemy walks nearby. Can place up to 4.</item>
+    </string-array>
+
+    <string-array name="engineerUtility">
+        <item>2</item>
+        <item>Bubble Shield</item>
+        <item>25s</item>
+        <item>N/A</item>
+        <item>Place an impenetrable shield that blocks all incoming damage.</item>
+        <item>Thermal Harpoons</item>
+        <item>2.5s</item>
+        <item>1.0 per harpoon</item>
+        <item>Enter target painting mode to launch heat-seeking harpoons that deal 500% damage each. Can store up to 4.</item>
+    </string-array>
+
+    <string-array name="engineerSpecial">
+        <item>2</item>
+        <item>TR12 Gauss Auto-Turret</item>
+        <item>30s</item>
+        <item>1.0</item>
+        <item>Place a turret that inherits all your items. Fires a cannon for 100% damage. Can place up to 2.</item>
+        <item>TR58 Carbonizer Turret</item>
+        <item>30s</item>
+        <item>0.6</item>
+        <item>Place a mobile turret that inherits all your items. Fires a laser for 200% damage per second that slows enemies. Can place up to 2.</item>
+    </string-array>
+
+    <string-array name="hereticPassive">
+        <item>1</item>
+        <item>Nevermore</item>
+        <item>1s</item>
+        <item>N/A</item>
+        <item>Squack a solen reply.</item>
+    </string-array>
+
+    <string-array name="hereticPrimary">
+        <item>1</item>
+        <item>Hungering Gaze</item>
+        <item>2s (+2s per stack) since the last shot was fired</item>
+        <item>Initial Hit: 0.1\nExplosion: 1.0</item>
+        <item>Fire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).</item>
+    </string-array>
+
+    <string-array name="hereticSecondary">
+        <item>1</item>
+        <item>Slicing Maelstrom</item>
+        <item>5s (+5s per stack)</item>
+        <item>Maelstrom: 0.2\nExplosion: 1</item>
+        <item>Charge up a projectile that deals 875% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.</item>
+    </string-array>
+
+    <string-array name="hereticUtility">
+        <item>1</item>
+        <item>Shadowfade</item>
+        <item>6s after the effect ends</item>
+        <item>N/A</item>
+        <item>Fade away, becoming intangible and gaining +30% movement speed. Heal for 18.2% (+18.2% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.</item>
+    </string-array>
+
+    <string-array name="hereticSpecial">
+        <item>1</item>
+        <item>Ruin</item>
+        <item>8s (+8s per stack)</item>
+        <item>1.0</item>
+        <item>Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.</item>
+    </string-array>
+
+    <string-array name="huntressPassive">
+        <item>0</item>
+    </string-array>
+
+    <string-array name="huntressPrimary">
+        <item>2</item>
+        <item>Strafe</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Agile. Quickly fire a seeking arrow for 150% damage.</item>
+        <item>Flurry</item>
+        <item>N/A</item>
+        <item>0.7 x 3 (0.7 x 6 for critical strike)</item>
+        <item>Agile. Draw back a volley of 3 seeking arrows for 3x100% damage. Critical Strikes fire 6 arrows.</item>
+    </string-array>
+
+    <string-array name="huntressSecondary">
+        <item>1</item>
+        <item>Laser Glaive</item>
+        <item>7s</item>
+        <item>0.8 per bounce</item>
+        <item>Throw a seeking glaive that bounces up to 6 times for 250% damage. Damage increases by 10% per bounce.</item>
+    </string-array>
+
+    <string-array name="huntressUtility">
+        <item>2</item>
+        <item>Blink</item>
+        <item>7s</item>
+        <item>N/A</item>
+        <item>Disappear and teleport forward.</item>
+        <item>Phase Blink</item>
+        <item>2s per charge</item>
+        <item>N/A</item>
+        <item>Agile. Disappear and teleport a short distance. Can store up to 3 charges.</item>
+    </string-array>
+
+    <string-array name="huntressSpecial">
+        <item>2</item>
+        <item>Arrow Rain</item>
+        <item>12s</item>
+        <item>0.2 x 19</item>
+        <item>Teleport into the sky. Target an area to rain arrows, slowing all enemies and dealing 330% damage per second.</item>
+        <item>Ballista</item>
+        <item>12s</item>
+        <item>1.0 x 3</item>
+        <item>Teleport backwards into the sky. Fire up to 3 energy bolts, dealing 3x900% damage.</item>
+    </string-array>
+
+    <string-array name="loaderPassive">
+        <item>1</item>
+        <item>Scrap Barrier</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>The Loader is immune to fall damage. Striking enemies with the Loader\'s gauntlets grants a temporary barrier.</item>
+    </string-array>
+
+    <string-array name="loaderPrimary">
+        <item>1</item>
+        <item>Knuckleboom</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Swing at nearby enemies for 320% damage.</item>
+    </string-array>
+
+    <string-array name="loaderSecondary">
+        <item>2</item>
+        <item>Grapple Fist</item>
+        <item>5s</item>
+        <item>N/A</item>
+        <item>Fire your gauntlet forward, pulling you to target.</item>
+        <item>Spiked Fist</item>
+        <item>5s</item>
+        <item>1.0</item>
+        <item>Stunning. Fire your gauntlet forward, dealing 320% damage. Pulls you to heavy targets. Light targets are pulled to YOU instead.</item>
+    </string-array>
+
+    <string-array name="loaderUtility">
+        <item>2</item>
+        <item>Charged Gauntlet</item>
+        <item>5s</item>
+        <item>1.0</item>
+        <item>Heavy. Charge up a piercing ounch for 600%-2700% damage.</item>
+        <item>Thunder Gauntlet</item>
+        <item>5s</item>
+        <item>1.0</item>
+        <item>Heavy. Charge up a single-target punch for 2100% damage that shocks enemies in a code for 1000% damage.</item>
+    </string-array>
+
+    <string-array name="loaderSpecial">
+        <item>2</item>
+        <item>M551 Pylon</item>
+        <item>20s</item>
+        <item>0.5</item>
+        <item>Throw a floating pylon that zaps up to 6 nearby enemies for 100% damage. Can be grappled.</item>
+        <item>Thunderslam</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Stunning. Slam your fists down, dealing 2000% damage on impact.</item>
+    </string-array>
+
+    <string-array name="mercenaryPassive">
+        <item>1</item>
+        <item>Cybernetic Enhancements</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>The Mercenary can jump twice.</item>
+    </string-array>
+
+    <string-array name="mercenaryPrimary">
+        <item>1</item>
+        <item>Laser Sword</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Agile. Slice in front for 130% damage. Every 3rd hit strikes in a greater area and Exposes enemies.</item>
+    </string-array>
+
+    <string-array name="mercenarySecondary">
+        <item>2</item>
+        <item>Whirlwind</item>
+        <item>2.5s</item>
+        <item>1.0 x 2</item>
+        <item>Quickly slice horizontally twice, dealing 2x200% damage. If airborne, slice vertically instead.</item>
+        <item>Rising Thunder</item>
+        <item>2.5s</item>
+        <item>1.0</item>
+        <item>Unleash a slicing uppercut, dealing 550% damage and sending you airborne.</item>
+    </string-array>
+
+    <string-array name="mercenaryUtility">
+        <item>2</item>
+        <item>Blinding Assault</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Stunning. Dash forward, dealing 300% damage. If you hit an enemy, you can dash again, up to 3 total.</item>
+        <item>Focused Assault</item>
+        <item>8s</item>
+        <item>1.0</item>
+        <item>Stunning. Dash forward, dealing 700% damage and Exposing enemies after 1 second.</item>
+    </string-array>
+
+    <string-array name="mercenarySpecial">
+        <item>2</item>
+        <item>Eviscerate</item>
+        <item>6s</item>
+        <item>1.0 x 7+</item>
+        <item>Target the nearest enemy, attacking them for 110% damage repeatedly. You cannot be hit for the duration.</item>
+        <item>Slicing Winds</item>
+        <item>6s</item>
+        <item>1.0 x 8</item>
+        <item>Fire a wind of blades that attack up to 3 enemies for 8x100% damage. The last hit Exposes enemies.</item>
+    </string-array>
+
+    <string-array name="multPassive">
+        <item>0</item>
+    </string-array>
+
+    <string-array name="multPrimary">
+        <item>4</item>
+        <item>Auto-Nailgun</item>
+        <item>N/A</item>
+        <item>0.6</item>
+        <item>Rapidly fire nails for 7-% damage. Finishes with a blash of 12 nails.</item>
+        <item>Rebar Puncher</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Fire a piercing rebar that deals 600% damage.</item>
+        <item>Scrap Launcher</item>
+        <item>1.5s</item>
+        <item>1.0</item>
+        <item>Fire a rocket that explodes for 360% damage. Hold up to 4.</item>
+        <item>Power-Saw</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Saw nearby enemies for 1000% damage per second.</item>
+    </string-array>
+
+    <string-array name="multSecondary">
+        <item>1</item>
+        <item>Blast Canister</item>
+        <item>6s</item>
+        <item>Canister: 1.0\nBomblets: 0.3</item>
+        <item>Stunning. Launch a canister for 220% damage. Drops stun bomblets for 5x44% damage.</item>
+    </string-array>
+
+    <string-array name="multUtility">
+        <item>1</item>
+        <item>Transport Mode</item>
+        <item>6s</item>
+        <item>Charge: 1.0\nRam: 1.0</item>
+        <item>Heavy. Zoom forward, gaining 200 armor and 220% movement speed. Deals 250% damage to enemies.</item>
+    </string-array>
+
+    <string-array name="multSpecial">
+        <item>2</item>
+        <item>Retool</item>
+        <item>0.5</item>
+        <item>N/A</item>
+        <item>Passively hold TWO equipment at once. Activating \'Retool\' switches the active Equipment and MUL-T\'s primary attack.</item>
+        <item>Power Mode</item>
+        <item>5s</item>
+        <item>N/A</item>
+        <item>Enter a heavy stance, equipping both your primary attacks at once. Gain 100 armor, but lose -60% movement speed.</item>
+    </string-array>
+
+    <string-array name="railgunnerPassive">
+        <item>1</item>
+        <item>Magnetic Accelerator</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>All Critical Strike Chance is converted into Critical Strike Damage.</item>
+    </string-array>
+
+    <string-array name="railgunnerPrimary">
+        <item>1</item>
+        <item>XQR Smart Round System</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Fire aggressive tracking rounds for 100% damage.</item>
+    </string-array>
+
+    <string-array name="railgunnerSecondary">
+        <item>5</item>
+        <item>M99 Sniper</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Activate your long-range scope, highlighting Weak Points and transforming your weapon into a piercing 1000% damage railgun.</item>
+        <item>M99</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Launch a heavy projectile for 1000% damage.</item>
+        <item>Active Reload</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Perfectly time your reload to recover faster and to boost the damage of your next shot by +100%.</item>
+        <item>HH44 Marksman</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Activate your short-range scope, highlighting Weak Points and transforming your weapon into a quick 400% damage railgun.</item>
+        <item>HH44</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Launch a light projectile for 400% damage.</item>
+    </string-array>
+
+    <string-array name="railgunnerUtility">
+        <item>2</item>
+        <item>Concussion Device</item>
+        <item>6s</item>
+        <item>0.0</item>
+        <item>Throw out a device that pushes you and all nearby enemies away. Can hold up to 2.</item>
+        <item>Polar Field Device</item>
+        <item>12s</item>
+        <item>0.0</item>
+        <item>Throw out a device that slows down all nearby enemies and projectiles.</item>
+    </string-array>
+
+    <string-array name="railgunnerSpecial">
+        <item>4</item>
+        <item>Supercharge</item>
+        <item>15s</item>
+        <item>N/A</item>
+        <item>Fire a piercing round for 4000% damage and 150% Weak Point damage. Afterwards, all your weapons are disabled for 5 seconds.</item>
+        <item>Supercharged Railgun</item>
+        <item>N/A</item>
+        <item>3.0</item>
+        <item>Launch a super-charged projectile for 4000% damage. Critical Strike damage is multiplied by 1.5.</item>
+        <item>Cryocharge</item>
+        <item>15s</item>
+        <item>N/A</item>
+        <item>Freezing. Fire a piercing round for 2000% damage.</item>
+        <item>Cryocharged Railgun</item>
+        <item>N/A</item>
+        <item>1.5</item>
+        <item>Freezing. Launch a super-cooled projectile for 350% damage.</item>
+    </string-array>
+
+    <string-array name="rexPassive">
+        <item>1</item>
+        <item>Natural Toxins</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Certain attacks Weaken enemies hit, reducing their movement speed, armor, and damage.</item>
+    </string-array>
+
+    <string-array name="rexPrimary">
+        <item>1</item>
+        <item>DIRECTIVE: Inject</item>
+        <item>N/A</item>
+        <item>0.5 x 3</item>
+        <item>Fire 3 syringes for 3x80% damage. The last syringe Weakens and heals for 60% of damage dealt.</item>
+    </string-array>
+
+    <string-array name="rexSecondary">
+        <item>2</item>
+        <item>DIRECTIVE: Drill</item>
+        <item>6s</item>
+        <item>0.5 x 16</item>
+        <item>Launch a series of seed bullets into the sky, raining down for 450% damage per second.</item>
+        <item>Seed Barrage</item>
+        <item>0.5s</item>
+        <item>1.0</item>
+        <item>Use 15% HP. Launch a mortar into the sky for 450% damage.</item>
+    </string-array>
+
+    <string-array name="rexUtility">
+        <item>2</item>
+        <item>DIRECTIVE: Disperse</item>
+        <item>5.5s</item>
+        <item>0.0</item>
+        <item>Fire a Sonic Boom that Weakens all enemies hit.</item>
+        <item>Bramble Volley</item>
+        <item>5.5s</item>
+        <item>0.5</item>
+        <item>Use 20% HP. Fire a Sonic Boom that damages enemies for 550% damage. Heals for every target hit.</item>
+    </string-array>
+
+    <string-array name="rexSpecial">
+        <item>2</item>
+        <item>DIRECTIVE: Harvest</item>
+        <item>6s</item>
+        <item>1.0</item>
+        <item>Fire a bolt that deals 330% damage and injects an enemy. On death, drop multiple healing fruits that heal for 25% HP.</item>
+        <item>Tangling Growth</item>
+        <item>12s</item>
+        <item>Projectile: 1.0\nRoots: 0.0</item>
+        <item>Use 25% HP. Fire a flower that roots for 200% damage. Heals for every target hit.</item>
+    </string-array>
+
+    <string-array name="voidFiendPassive">
+        <item>1</item>
+        <item>Void Corruption</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>At full Corruption, transform your abilities into more aggressive forms.</item>
+    </string-array>
+
+    <string-array name="voidFiendPrimary">
+        <item>2</item>
+        <item>Drown</item>
+        <item>N/A</item>
+        <item>1.0</item>
+        <item>Fire a slowing long-range beam for 300% damage.</item>
+        <item>Corrupted Drown</item>
+        <item>N/A</item>
+        <item>0.625</item>
+        <item>Fire a short-range beam for 2000% damage.</item>
+    </string-array>
+
+    <string-array name="voidFiendSecondary">
+        <item>2</item>
+        <item>Flood</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Fire a plasma missile for 600% damage. Fully charge it for an explosive plasma ball instead, dealing 1100% damage.</item>
+        <item>Corrupted Flood</item>
+        <item>4s</item>
+        <item>1.0</item>
+        <item>Fire an arcing plasma bomb for 1100% damage.</item>
+    </string-array>
+
+    <string-array name="voidFiendUtility">
+        <item>2</item>
+        <item>Trespass</item>
+        <item>5s</item>
+        <item>N/A</item>
+        <item>Disappear into the Void, cleansing all debuffs while moving in an upward arc.</item>
+        <item>Corrupted Trespass</item>
+        <item>5s</item>
+        <item>N/A</item>
+        <item>Disappear into the Void, cleansing all debuffs while moving at a fast forward angle.</item>
+    </string-array>
+
+    <string-array name="voidFiendSpecial">
+        <item>2</item>
+        <item>Suppress</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Crush 25% Corruption to heal yourself for 25% maximum health.</item>
+        <item>Corrupted Suppress</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>Crush 25% maximum health to gain 25% corruption.</item>
+    </string-array>
+</resources>

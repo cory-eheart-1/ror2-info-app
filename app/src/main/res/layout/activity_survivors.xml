@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_survivors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context=".SurvivorsActivity">
+
+    <ScrollView
+        android:id="@+id/sv_survivors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tl_survivorsPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tr_survivorsTitle"
+                style="@style/mainTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_survivorsTitle"
+                    style="@style/mainTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survivors" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr_primaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_primaryText"
+                    style="@style/basicText"
+                    android:layout_width="342dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survivorsMainText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr_charactersTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_charactersTitle"
+                    style="@style/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/characters" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tv_characterIcons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_iconsAndLabels"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_acrid"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/acrid"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <ImageButton
+                            android:id="@+id/ib_artificer"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/artificer"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_acridLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/acrid" />
+
+                        <TextView
+                            android:id="@+id/tv_artificerLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/artificer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_bandit"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/bandit"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <ImageButton
+                            android:id="@+id/ib_captain"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/captain"
+                            tools:ignore="SpeakableTextPresentCheck" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_banditLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/bandit" />
+
+                        <TextView
+                            android:id="@+id/tv_captainLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/captain" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_commando"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/commando" />
+
+                        <ImageButton
+                            android:id="@+id/ib_engineer"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/engineer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_commandoLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/commando" />
+
+                        <TextView
+                            android:id="@+id/tv_engineerLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/engineer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_heretic"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/heretic" />
+
+                        <ImageButton
+                            android:id="@+id/ib_huntress"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/huntress" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_hereticLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/heretic" />
+
+                        <TextView
+                            android:id="@+id/tv_huntressLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/huntress" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_loader"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/loader" />
+
+                        <ImageButton
+                            android:id="@+id/ib_mercenary"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/mercenary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_loaderLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/loader" />
+
+                        <TextView
+                            android:id="@+id/tv_mercenaryLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/mercenary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_mult"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/mult" />
+
+                        <ImageButton
+                            android:id="@+id/ib_railgunner"
+                            style="@style/characterButtonDLC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/dlc"
+                            app:srcCompat="@drawable/railgunner" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_multLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/mult" />
+
+                        <TextView
+                            android:id="@+id/tv_railgunnerLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/railgunner" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_icons7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/ib_rex"
+                            style="@style/characterButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/rex" />
+
+                        <ImageButton
+                            android:id="@+id/ib_voidFiend"
+                            style="@style/characterButtonDLC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/dlc"
+                            app:srcCompat="@drawable/voidfiend" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_labels7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_rexLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/rex" />
+
+                        <TextView
+                            android:id="@+id/tv_voidFiendLabel"
+                            style="@style/basicText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/voidFiend" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_helper"
+                        style="@style/helperText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/survivorsHelper" />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
